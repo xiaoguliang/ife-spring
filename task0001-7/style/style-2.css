@@ -18,4 +18,5 @@
 .divC{
 	background-color: blue;
 	margin-left: 300px;
+	overflow:hidden;
 }
