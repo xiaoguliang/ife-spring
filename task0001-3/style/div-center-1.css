@@ -1,0 +1,9 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+div{
+	width: 960px;
+	background:red;
+	margin: 0 auto; 
+}
