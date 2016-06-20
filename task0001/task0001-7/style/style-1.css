@@ -1,0 +1,19 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+.divA{
+	background-color: red;
+	width: 300px;
+	float: left;
+}
+
+.divB{
+	background-color: yellow;
+	width:400px;
+	float: right;
+}
+.divC{
+	background-color: blue;
+	overflow: hidden;
+}

@@ -1,0 +1,14 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: red;
+}
+div{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	float: left;
+	margin: 20px 15px;
+}
