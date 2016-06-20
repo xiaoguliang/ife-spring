@@ -1,0 +1,11 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	width: 960px;
+    left: 50%;
+	position: absolute;
+	background: red;
+	margin-left: -480px;
+}
