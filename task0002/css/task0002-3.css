@@ -1,0 +1,36 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+/*图片布局*/
+#imgRotation {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+#imgContain {
+    width: 2500px;
+    font-size: 0;
+    position: absolute;
+}
+
+
+/*小圆点*/
+#dot {
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    margin-left: -45px;
+}
+#dot a {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.active {
+    background-color: black;
+    cursor: default;
+}
