@@ -196,13 +196,12 @@ function removeClass(element, oldClassName) {
   //本题思路：
     //1.使用getBoundingClientRect()方法获取当前元素相对于可视区域的位置，再加上混动跳的位置
     //2.关于滚动条的位置scrollTop，scrollLeft这两个属性的使用，各个的浏览器还不一样
-  function getPosition(element) 
-  {
-    	var pos={};
-    	pos.x=element.getBoundingClientRect().left+Math.max(document.documentElement.scrollLeft,document.body.scrollLeft);
-    	pos.y=element.getBOundingClientRect().top+Math.max(document.documentElement.scrollTop,document.body.scrollTop);
-    	return pos;
-  }
+ function getPosition(element) {
+    var pos = {};
+    pos.x = element.getBoundingClientRect().left + Math.max(document.documentElement.scrollLeft, document.body.scrollLeft);
+    pos.y = element.getBoundingClientRect().top + Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+    return pos;
+}
 
 
   // 给一个element绑定一个针对event事件的响应，响应函数为listener
